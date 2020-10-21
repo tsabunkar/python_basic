@@ -6,3 +6,21 @@
 - latest version of python would be build upon Python-3 only
 
 ---
+
+# Install Python
+
+- https://www.python.org/downloads/
+
+---
+
+# Run Python File
+
+- python3 <file_name>
+
+---
+
+# Python Interpreter
+
+- Python Interpreter is REPL to play with Python its not meant for projects
+
+---
