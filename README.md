@@ -10,6 +10,7 @@
 # Install Python
 
 - https://www.python.org/downloads/
+- Documentation: https://docs.python.org/3/
 
 ---
 
@@ -24,3 +25,24 @@
 - Python Interpreter is REPL to play with Python its not meant for projects
 
 ---
+
+# Maths Operator
+
+<!--
+- + Addtion
+- - Subtraction
+- * Multiply
+- / Divide
+- ** Exponentiation
+- % Modulo
+- // Integer Division
+-->
+
+- PEMDAS (P- parentheses, E- exponent, M- multiplication, D- division, A- addition, S- subtraction)
+
+---
+
+# Comments
+
+- Single line comment ==> #
+- Python does not really have a syntax for multi line comments, but you can use a multiline string. Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code
