@@ -75,7 +75,6 @@ formatted2= "I have variable called {}".format(y)
 print(formatted2)
 
 
-################################################################
 
 first = None
 last = None
@@ -92,3 +91,31 @@ print(formattedStr)
 
 print('Sabunkar'[0])
 print('Tejas'[-2])
+
+################################################################
+
+# Converting Data Types
+
+a1 = 12.3423
+b1 = int (a1)
+
+print(b1)
+
+my_list = [1, 2, 3]
+
+print(my_list)
+print(str (my_list)) # !str is built-in, don't use this as variable name
+print(type (str (my_list)))
+
+c1 = True
+print(int(c1)) # 1
+print(int(False)) # 0
+print(float(c1)) # 1.0
+
+my_name : str
+# print(my_name)  # Variables Must be assigned to some value before used ==> 
+# Error : NameError: name 'my_name' is not defined
+
+
+arabic = "الثعبان"
+print(arabic)

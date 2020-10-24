@@ -64,6 +64,8 @@
 
 # Variables
 
+- Variables Must be assigned to some value before used ==> Error : NameError: name 'variable_name' is not defined
+- Syntax- variable_name: type_name
 - variables are like containers for storing data, pull it out later. They can hold all sorts of things like - number, boolean, string, etc
 - variable in python is like a variable in mathematics: it is named symbols that holds a value
 - Thinking like JAR
@@ -74,7 +76,7 @@
   - rest of the variable name must consist of letters, numbers or underscores
   - variable names are case-sensitive
 - Naming Conventions/Style/Guide-lines:
-  - variable should be snake_case (betweeen words underscore)
+  - variable should be lower_snake_case (betweeen words underscore)
   - variable should be lower cases
   - constants should be CAPITAL_SNAKE_CASE
   - Class name should be UpperCamelCase
@@ -105,3 +107,11 @@
   - https://docs.python.org/3/reference/lexical_analysis.html#literals
 - Formatting String: There are several ways to format a string in python to interpolate a variable. New way in Python3 is F-String
 - String is indexed (ie- each character has indicies)
+
+---
+
+# Converting DataTypes
+
+- Can explicitly convert data type of the variable by using the built-in type as a function
+  a1 = 12.3423
+  b1 = int (a1)
