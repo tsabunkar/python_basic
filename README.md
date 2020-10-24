@@ -7,7 +7,7 @@
 - supports object-oriented programming & procedural oriented programming paradigm
 - The source code of python is converted into an immediate form called bytecode.
 - Cross OS language (Windows, Linux, Unix, and Mac)
-- Dynamic Typing: Variables can be reassigned with to any different data type
+- Dynamic Typing: Variables can be reassigned with to any different data type, thus python is dynamically typed language. since variable can change type readily. other languages like c, java are statically typed where variables are stuck with their originally-assigned type
 
 ---
 
@@ -94,5 +94,14 @@
   - Mapping Type: dict (Collection of key/value pairs)
   - Set Type: set, frozenset
   - Binary Type: bytes, bytearray, memoryview
+- Special Value: None (Similar to null in other languages)
 
 ---
+
+# Strings
+
+- String literals in python can be declared with either Single quotes or double quotes. (Just like JS)
+- Escape Character/Sequence: this are meta-characters which get interpreted by python to do somthing special:
+  - https://docs.python.org/3/reference/lexical_analysis.html#literals
+- Formatting String: There are several ways to format a string in python to interpolate a variable. New way in Python3 is F-String
+- String is indexed (ie- each character has indicies)
