@@ -13,3 +13,18 @@ a, b = True, False
 
 print(a)
 
+
+# Data Types
+
+is_male = True # IT is Capital True not true <-- Remeber about boolean
+print(is_male)
+
+first_name = 'tejas'
+
+print(first_name)
+print(type(first_name))
+
+last_name = "Shailesh Sabunkar" # Single quotes is same as single quotes for String (just like js)
+
+print(last_name)
+

@@ -7,6 +7,7 @@
 - supports object-oriented programming & procedural oriented programming paradigm
 - The source code of python is converted into an immediate form called bytecode.
 - Cross OS language (Windows, Linux, Unix, and Mac)
+- Dynamic Typing: Variables can be reassigned with to any different data type
 
 ---
 
@@ -79,5 +80,19 @@
   - Class name should be UpperCamelCase
   - variable that starts and ends with two underscores (called dunder for double underscore) are supposed to be private or should left alone ex-
   <!-- __no_touch__ -->
+
+---
+
+# Data Types
+
+- Primitive Data type:
+  - Boolean Type: bool
+  - Numeric Types: int, float, complex
+  - Text Type: str
+- Secondary Data Type: (Data-Structures)
+  - Sequence Types: list, tuple, range (Ordered sequence of values like array)
+  - Mapping Type: dict (Collection of key/value pairs)
+  - Set Type: set, frozenset
+  - Binary Type: bytes, bytearray, memoryview
 
 ---
