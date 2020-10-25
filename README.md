@@ -148,3 +148,44 @@ else:
   - is: check for values and stores in the same memory ('is' operator is only truthy if the vairables reference the same item in the memory)
 
 ---
+
+# For Loops
+
+- Syntax:
+
+```
+
+for item in iterable_object:
+  # logic
+
+```
+
+- An iterable_object is like - collection of items, ex- a list of numbers, a string of characters, a range, etc.
+- item is a temporary variable which reference the current position of our iterator with in the iterable. It will iterate over every item of the collection and then go away when it has visited all the items in the collection
+- range(1,8) ==> Generates numbers from 1 to 7
+- range() - think ranges as just a slice of number line.
+  - If we want to print numbers we can simply iterate over range()
+  - range(7) will give you integers from 0 to 6
+  - range(1, 8) will give you integers from 1 to 7
+  - range(1, 10, 2) will give you odds from 1 to 10
+  - range(7, 0, -1) will give you integers from 7 to 1 (Third param is step ==> How many to skip, also +ve -> count up or -ve -> count down)
+
+---
+
+# While loops
+
+- Anything that can be done by for loops can also be done by while loops.
+- Something done by while loops cannot be done by for loops.
+- While loops require extra care i.e- should have condition that will manually terminates.(If not termiate: It will be in infinite loops)
+- Syntax:
+
+```
+
+while boolean_expression:
+  # while above condition is truthy this block of code will be executed
+
+```
+
+- break- allows us to exit the loops (while, for) explicitly (whenever we want) <-- Controlled Exists
+
+---
