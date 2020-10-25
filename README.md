@@ -115,3 +115,36 @@
 - Can explicitly convert data type of the variable by using the built-in type as a function
   a1 = 12.3423
   b1 = int (a1)
+
+---
+
+# Conditional Statements
+
+- Syntax
+
+```
+
+if condition:
+  _code_
+elif condition:
+  _code_
+else:
+  _code_
+
+```
+
+- Comparsion Operators: ==, !=, <, >, >=, <=
+- Logical Operators: and, or, not
+
+---
+
+# Truthiness or Falseness
+
+- Truthiness : Statements or expressions which resolve to true boolean value.
+- Values can that can be resolved to boolean true is Truthy or value can be be resolved to boolean false is falsy
+- Beside false condition checks, other things that are naturally falsy include: empty objects, empty String, None and Zero
+- Difference between "==" v/s is: (Both are used to check condition oeprator) ==> Comparsion Operator
+  - == only check for values are same?
+  - is: check for values and stores in the same memory ('is' operator is only truthy if the vairables reference the same item in the memory)
+
+---
