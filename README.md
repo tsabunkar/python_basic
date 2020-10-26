@@ -189,3 +189,13 @@ while boolean_expression:
 - break- allows us to exit the loops (while, for) explicitly (whenever we want) <-- Controlled Exists
 
 ---
+
+# Style Guide For Python
+
+- pep-8 styleguide (python enhancement proposal)
+- https://www.python.org/dev/peps/pep-0008/
+- 4 space = 1 Indentation
+- If you want to use auto-linting tool in VSCode: https://code.visualstudio.com/docs/python/linting
+- In general you can use: autopep8 --in-place <file_name.py> (No separate installation required in linux)
+
+---
