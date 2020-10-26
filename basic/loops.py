@@ -122,15 +122,27 @@ print("Thanks for confronting")
  """
 
 # ! Alternatively
-
+""" 
 sentence = input('Please provide input \n')
 
 while sentence != 'you win':
     sentence = input(f'{sentence}\n')
 print("Thanks for confronting")
-
+ """
 
 
 ###############################
 
 
+# Probability of getting number - 5
+
+from random import randint
+
+random_guy = randint(1, 10)
+
+while random_guy != 5:
+    print(random_guy)
+    random_guy = randint(1, 10)
+
+
+###############################
