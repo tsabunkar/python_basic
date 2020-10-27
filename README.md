@@ -199,3 +199,9 @@ while boolean_expression:
 - In general you can use: autopep8 --in-place <file_name.py> (No separate installation required in linux)
 
 ---
+
+# List
+
+- Collection or grouping of items
+- data structure is higher of data-type (Secondary data types) which is general stores the primary data-type in particular fashion (i.e- structured way)
+- Lists in python (in js - array)
