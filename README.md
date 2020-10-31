@@ -203,5 +203,19 @@ while boolean_expression:
 # List
 
 - Collection or grouping of items
+- This ds is ordered collection of elements
 - data structure is higher of data-type (Secondary data types) which is general stores the primary data-type in particular fashion (i.e- structured way)
 - Lists in python (in js - array)
+- list always starts counting at ZERO. Thus your first element lives at index-0
+
+---
+
+# Difference b/w functions and method
+
+- function: function is a sequence of statements that execute in a certain order, given a name. They let us implement code reusability.
+- Python Functions, we talked about built-in and user-defined functions. ex- len('ab'), type(a)
+- Python method is like a function, except it is attached to an object. We call a method on an object, and it possibly makes changes to that object.
+ A method, then, belongs to a class. ex: list1.sort(), [1,2,3].sort(), str1.upper()
+- Basically methods depends on any object (in front/prefix of it), whereas functions are on its own.
+
+---
