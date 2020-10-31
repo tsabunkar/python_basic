@@ -100,15 +100,43 @@ arrays_nums = [1, 2, 4, 4, 4, 4, 3]
 arrays_nums.remove(4)
 print(arrays_nums) # [1, 2, 4, 4, 4, 3]   <-- Removes only the first occurrence of matched item as argument
 
+##################################
 
+dan_brown_books = ['deception point', 'da vinci code', 'origin']
 
+# index - return the index/position but take args as param
+print(dan_brown_books.index('origin'))
+# print(dan_brown_books.index('ef')) # ValueError: 'ef' is not in list
 
+nums_array = [5, 5, 6, 7, 8, 5, 9, 6,  2]
+print(nums_array.index(5))
+print(nums_array.index(5, 1)) # (o/p- 1) finds the index after the start point -> 1
+print(nums_array.index(5, 2)) # (o/p- 5)
+print(nums_array.index(6, 1, 4)) # (o/p- 5) start = 1 and end = 4
 
+# count - number of times occurred
+print(nums_array.count(5)) # 3
+print(nums_array.count(111)) # 0 (bcoz does not present)
 
+# reverse - reverse order of the list in-place (does not create a duplicate)
+print(dan_brown_books.reverse()) # None
+print(dan_brown_books) # ['origin', 'da vinci code', 'deception point']
 
+# sort - alphabetical sorted, ascending order for nums (in-place)
+print(dan_brown_books.sort())
+print(dan_brown_books)
 
+# join - it is the string method not a list method
+# it returns a new string <-- NOTE
+words = ['coding', 'is', 'fun']
+print(' '.join(words))
+full_name = ['tejas', 'shailesh', 'sabunkar']
+print('.'.join(full_name))
 
+##################################
 
+# SLICING
+# helps to create the copy of the entire/portion of the source list
 
 
 
