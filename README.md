@@ -207,6 +207,9 @@ while boolean_expression:
 - data structure is higher of data-type (Secondary data types) which is general stores the primary data-type in particular fashion (i.e- structured way)
 - Lists in python (in js - array)
 - list always starts counting at ZERO. Thus your first element lives at index-0
+- slices can be used to make the copy of the list
+- list comprehension is used everywhere when iterating over list, string, ranges, and more data types
+- swapping is useful for sorting or shuffling
 
 ---
 
