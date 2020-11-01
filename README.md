@@ -222,3 +222,18 @@ while boolean_expression:
 - Basically methods depends on any object (in front/prefix of it), whereas functions are on its own.
 
 ---
+
+# Dictionary
+
+- Consist of key/value pairs
+- Can use key to describe our data (meta-data) and value to represent the actual data
+- keys are always numbers and string
+- In Dictionary there is no guarantee of order
+
+
+
+
+
+
+
+
