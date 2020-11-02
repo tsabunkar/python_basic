@@ -78,4 +78,43 @@ print({}.fromkeys(['name', 'email', 'phone'], None))  # Assigning keys with defa
 print({}.fromkeys([]))  # {}
 print({}.fromkeys('phone', '9'))  # {'p': '9', 'h': '9', 'o': '9', 'n': '9', 'e': '9'}
 
-# get() - retri
+# get() - retrieves a value from the object and returns None inside of a keyError if the key does not exist
+print(d.get('a'))  # 1 (Pass the key name, and retrieve the value from dictionary)
+print(d.get('abc'))  # no error but value is - None
+# print(d['abc']) # KeyError: 'abc'
+
+# pop() - takes key as an argument and remove the key&value pair from the dictionary
+# --> Also returns the value corresponding to the key that was removed
+print(d.pop('a'))  # 1 (Returns the value of the prop/key- 'a')
+print(d)  # {'b': 2, 'c': 3} (thus the key 'a' entry/props & its value -> removed)
+# print(d.pop('email_id')) # KeyError: 'email_id'
+# print(d.pop()) # TypeError: pop expected at least 1 argument, got 0
+
+# popitem()
+print(d.popitem())  # ('c', 3) --> Removes the key&value pair random bcoz - hashmap does not have order
+
+# update()- update the key and value in the dictionary with another set of key&value pairs.
+bottle_1 = {
+    'name': 'prestige',
+    'size': 750,
+    'color': 'golden',
+    'weight': 250
+}
+
+bottle_2 = {}
+bottle_2.update(bottle_1)
+
+print(bottle_2)
+print(bottle_1 == bottle_2)  # True (value is same)
+print(bottle_1 is bottle_2)  # False (address is different)
+
+bottle_2['name'] = 'prestige tatva'
+print(bottle_1 == bottle_2)  # False (value is different)
+
+# *Again trying to update bottle_2 with bottle_1 (override the bottle_2 props&values)
+bottle_2.update(bottle_1)
+print(bottle_2)
+print(bottle_1 == bottle_2)  # True
+
+bottle_2.update({})  # it will not update with empty dict, rather do nothing
+print(bottle_2)
