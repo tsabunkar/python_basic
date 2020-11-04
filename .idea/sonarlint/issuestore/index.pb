@@ -17,3 +17,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 L
 .idea/dictionaries/tejas.xml,8/7/8783bade4d6afb1e4563fa5455ea5df7fc214b41
+H
+ds/dictionary/spotify.py,4/7/478d17a22d4d53a479e4eb9052325ca45674f020

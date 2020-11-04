@@ -1,6 +1,6 @@
 
-jpython:S5795h"MReplace this "is" operator with "=="; identity operator is not reliable here.(ÂÇ¡ÿøÿÿÿÿ
-6python:S125"Remove this commented out code.(µ‘Ÿ²
-jpython:S5795-"MReplace this "is" operator with "=="; identity operator is not reliable here.(òáƒ“øÿÿÿÿ
 ;python:S125"Remove this commented out code.(Žë½šÿÿÿÿÿ
+jpython:S5795-"MReplace this "is" operator with "=="; identity operator is not reliable here.(òáƒ“øÿÿÿÿ
+6python:S125"Remove this commented out code.(µ‘Ÿ²
 jpython:S5795,"MReplace this "is" operator with "=="; identity operator is not reliable here.(º™¢èûÿÿÿÿ
+jpython:S5795h"MReplace this "is" operator with "=="; identity operator is not reliable here.(ÂÇ¡ÿøÿÿÿÿ

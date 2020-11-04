@@ -118,3 +118,5 @@ print(bottle_1 == bottle_2)  # True
 
 bottle_2.update({})  # it will not update with empty dict, rather do nothing
 print(bottle_2)
+
+# ! Dictionary Comprehension
