@@ -120,3 +120,31 @@ bottle_2.update({})  # it will not update with empty dict, rather do nothing
 print(bottle_2)
 
 # ! Dictionary Comprehension
+
+print('_________Dictionary Comprehension__________')
+# Syntax : {__ : __ for __ in __ }
+numbers = dict(first=1, second=2, third=3)
+
+print(numbers)
+square_numbers = {item_key: item_value ** 2 for item_key, item_value in numbers.items()}
+# the first code prefix to for loop is where which will iterate for each element
+print(square_numbers)
+
+print({num: num ** 3 for num in [1, 2, 3, 4]})
+
+str1 = 'ABC'
+str2 = '123'
+print(range(0, len(str1)))
+str_combo = {str1[i]: str2[i] for i in range(0, len(str1))}
+print(str_combo)
+
+capitals = {'india': 'New Delhi', 'Usa': 'Washington'}
+print({key.upper(): value.lower() for key, value in capitals.items()})
+
+# Conditional logic in dictionary comprehension
+print({num: ('even' if num % 2 == 0 else 'odd') for num in [1, 2, 3, 4]})
+
+print({num: ('even' if num % 2 == 0 else 'odd') for num in range(1, 6)})
+
+# if the starting index of key is 'i' then make that key as upper case else same
+print({key.upper() if key[0] == 'i' else key: value.lower() for key, value in capitals.items()})

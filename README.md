@@ -222,7 +222,6 @@ while boolean_expression:
 - Basically methods depends on any object (in front/prefix of it), whereas functions are on its own.
 
 ---
-
 # Dictionary
 
 - Consist of key/value pairs
@@ -230,10 +229,21 @@ while boolean_expression:
 - keys are always numbers and string
 - In Dictionary there is no guarantee of order
 
+---
+
+# Tuples
+
+- An order collection or grouping of items
+- syntax: uses () rather than [] <- used in list/array
+- It is immutable (i.e- src Cannot be modify/changed)
+- What makes Tuples a good DS
+    - Tuples are faster than list/array
+    - It makes your code safer from bugs (statically typed)
+    - can be used as valid keys in the dictionary
+    - some methods return them to you- like .items() when working with dictionaries!
+- Tuples can  be used as keys in the dictionary but list cannot be the key of dictionary
 
 
-
-
-
+---
 
 
