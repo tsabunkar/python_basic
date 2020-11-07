@@ -259,3 +259,21 @@ ordering, key or values and duplicates
 - There is no order for items present in the set, can be stored in random order
 
 ---
+
+# Functions
+
+- A process for execution a task
+- It can accept input and provides output
+- Useful for executing similar procedure over and over again
+- built-in functions: print(), list.append(), etc.
+- Why use Functions?
+    - Using functions stay DRY : Don't Repeat Yourself!, don't be WET (Write Everything Twice)
+    - Clean up our code and prevent duplications
+    - "Abstract away" code for other users  (Imagine you need to re-write the logic everytime you call that function)
+- return 
+    - exist the function
+    - we can return single or multiple values (using tuples)
+    - pops the function off of the call stack
+    
+---
+
