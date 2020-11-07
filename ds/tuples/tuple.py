@@ -35,3 +35,26 @@ person = {
 }
 
 print(person.items())  # gives you tuples
+
+# Iterate with tuples
+
+friends = ('shailesh', 'sabunkar', 'tejas')
+for name in friends:
+    print(name)
+
+print('______while______')
+i = len(friends) - 1
+while i >= 0:
+    print(friends[i])
+    i -= 1
+
+# tuples builtin Method
+
+# !count() - returns the times a value appears in a tuple
+x = (1, 2, 3, 4, 2, 1)
+print(x.count(1))  # Gives the count of 1
+print(friends.count('tejas'))
+
+# !index() -return the index at which a value is found in tuple
+print(x.index(1))
+print(friends.index('tejas'))

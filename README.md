@@ -242,8 +242,20 @@ while boolean_expression:
     - can be used as valid keys in the dictionary
     - some methods return them to you- like .items() when working with dictionaries!
 - Tuples can  be used as keys in the dictionary but list cannot be the key of dictionary
-
+- Tuples are faster than list and useful for protecting data
+- tuples are immutable
 
 ---
 
+# Set
 
+- sets are unordered collection of elements, the are immutable!
+- Set are like formal mathematical sets
+- Set do not have duplicate values
+- Elements are not order
+- You cannot access items in a set by index
+- sets can be useful if you need to keep track of collection of elements, but don't care about
+ordering, key or values and duplicates
+- There is no order for items present in the set, can be stored in random order
+
+---
