@@ -19,11 +19,11 @@ say_hi()  # Function called/invoked
 # ?NOTE: Function should be called after it is defined it, else you will get -NameError: name 'say_hi' is not defined
 
 
-def print_square(x):
+def print_square(x):  # x-> is called parameter of function not argument
     return x ** 2
 
 
-print(print_square(3))
+print(print_square(3))  # 3-> is called argument of function not parameter
 
 print('____flip a coin____')
 

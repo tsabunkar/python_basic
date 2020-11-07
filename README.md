@@ -274,6 +274,11 @@ ordering, key or values and duplicates
     - exist the function
     - we can return single or multiple values (using tuples)
     - pops the function off of the call stack
+- arguments vs parameters
+    - parameters is a variable in method definition
+    - when a method is called, the arguments are the data you pass into method's parameters
+    - Parameters is a variable in the declaration of function
+    - Arguments is the actual value of this variable that gets passed to function
     
 ---
 

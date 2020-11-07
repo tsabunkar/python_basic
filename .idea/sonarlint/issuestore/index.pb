@@ -19,3 +19,9 @@ L
 .idea/dictionaries/tejas.xml,8/7/8783bade4d6afb1e4563fa5455ea5df7fc214b41
 H
 ds/dictionary/spotify.py,4/7/478d17a22d4d53a479e4eb9052325ca45674f020
+=
+ds/set/set.py,f/4/f4d71c0a9aa69f31cd69b0fa440d43fedb5ccc97
+B
+ds/tuples/tuple.py,5/9/59d50f87d635efe6138642374ac5c6f8cc83652c
+B
+functions/basic.py,3/d/3d7ba1dbb020b4792c687e39bcd1a17f114b77e6
