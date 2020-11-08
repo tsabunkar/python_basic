@@ -112,8 +112,6 @@ increment()
 print(total)
 
 
-##########
-
 # ! nonlocal scope
 
 def outer_foo():
@@ -128,3 +126,21 @@ def outer_foo():
 
 
 print(outer_foo())
+
+
+########## Documentation ##########
+
+def foo_bar():
+    """This is Documentation abt this foo_bar function"""
+    return 'Documentation is Great'
+
+
+print(foo_bar())
+print(foo_bar.__doc__)  # prints the doc return in the first line of function
+
+print('_______')
+print(print.__doc__)
+print('_______')
+print(random.__doc__)
+print('_______')
+print([].pop.__doc__)
