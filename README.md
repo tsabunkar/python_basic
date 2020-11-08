@@ -279,6 +279,20 @@ ordering, key or values and duplicates
     - when a method is called, the arguments are the data you pass into method's parameters
     - Parameters is a variable in the declaration of function
     - Arguments is the actual value of this variable that gets passed to function
-    
+- Difference between default params and keyword arguments
+    - default parameters: when you define a function and use a -> = operator, you are setting
+    a default parameter.
+    - keyword arguments: when you invoke  a function and use a -> = operator, you are making a 
+    keyword arguments.
+
 ---
 
+# Scope
+
+- where our variable can be accessed
+- Function scope- variable that are defined inside a function are scoped in that function boundaries
+- global scope and nonlocal scope 
+- nonlocal scope - let us modify the parent function variable in the child (nested) function
+
+
+---
