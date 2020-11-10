@@ -58,3 +58,5 @@ print(friends.count('tejas'))
 # !index() -return the index at which a value is found in tuple
 print(x.index(1))
 print(friends.index('tejas'))
+
+###
