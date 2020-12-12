@@ -128,14 +128,17 @@ def outer_foo():
 print(outer_foo())
 
 
-########## Documentation ##########
+########## Documentating a functions ##########
+# doc- is essentially for complex functions to give brief about its operation
 
 def foo_bar():
     """This is Documentation abt this foo_bar function"""
     return 'Documentation is Great'
 
 
+print('_______')
 print(foo_bar())
+print('_______')
 print(foo_bar.__doc__)  # prints the doc return in the first line of function
 
 print('_______')
