@@ -333,3 +333,16 @@ while boolean_expression:
 - This is just a parameter- you can call it whatever you want
 
 ---
+
+## Parameters Ordering
+
+- function parameters should follow below order
+    1. parameters
+    2. *args
+    3. default parameter
+    4. **kwargs
+- Note: very specific arguments should be at the starting and more generic arguments like *args, default parameter
+  should be at the last
+
+---
+

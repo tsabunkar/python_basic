@@ -56,3 +56,30 @@ def special_greeting(**kwargs):
 print(special_greeting(tejas='sabunkar'))
 print(special_greeting(tejas='hero'))
 print(special_greeting(usha='sabunkar'))
+
+
+# Tuples Unpacking
+
+def sum_all_values(*args):
+    print(args)  # print as Tuples -> ([1,2,3,4] , )  <-- ending with comma
+    total = 0
+    for numb in args:
+        total += numb
+    print(total)
+
+
+num = [1, 2, 3, 4]
+# sum_all_values(num)  # !Error: TypeError: unsupported operand type(s) for +=: 'int'
+# Now to convert this num list to arguments/parameters <- Tuple Unpacking
+sum_all_values(*[1, 2, 3, 4])
+
+
+# Dictionary Unpacking
+
+def display_names(first, second):
+    print(f"{first} says hello to {second}")
+
+
+names_dict = {'first': 'tejas', 'second': 'sabunkar'}
+# display_names(names_dict)  # TypeError: display_names() missing 1 required positional argument: 'second
+display_names(**names_dict)
