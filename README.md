@@ -324,3 +324,12 @@ while boolean_expression:
 - This is just a parameter- you can call it whatever you want
 
 ---
+
+## **kwargs
+
+- kwargs -> key-word arguments (full-form)
+- A special operator we can pass to a function
+- Gather reaming keyword arguments as a dictionary
+- This is just a parameter- you can call it whatever you want
+
+---
