@@ -346,3 +346,18 @@ while boolean_expression:
 
 ---
 
+# Use-case of Lambda functions
+
+- Basically lambda functions are anonymous functions
+- Use-case: when we have a function which takes arguments as another function which will never be used in future, it is
+  better to declare it lambda
+
+---
+
+# map
+
+- A standard function that accepts at atleast two arguments, a function and an "iterable"
+- iterable- something that can be iterated over (lists, strings, dictionaries, set, tuples)
+- runs the lambda for each value in the iterable and returns a map object which can be converted into another
+  data-structure
+  
