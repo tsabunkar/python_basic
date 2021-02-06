@@ -360,4 +360,5 @@ while boolean_expression:
 - iterable- something that can be iterated over (lists, strings, dictionaries, set, tuples)
 - runs the lambda for each value in the iterable and returns a map object which can be converted into another
   data-structure
-  
+
+---
