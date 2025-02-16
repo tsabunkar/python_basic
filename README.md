@@ -1,11 +1,11 @@
 # Python Language Features
 
 - Dynamic, high level, free open source and interpreted programming language
-    - Dynamic: we don’t need to declare the data-type of variable because it is a dynamically typed language (bocz
-      variable is decided at run time).
-    - high level: no need to manage the memory
-    - interpreted: Python code is executed line by line at a time. unlike other languages C, Java. there is no need to
-      compile python code
+  - Dynamic: we don’t need to declare the data-type of variable because it is a dynamically typed language (bocz
+    variable is decided at run time).
+  - high level: no need to manage the memory
+  - interpreted: Python code is executed line by line at a time. unlike other languages C, Java. there is no need to
+    compile python code
 - supports object-oriented programming & procedural oriented programming paradigm
 - The source code of python is converted into an immediate form called bytecode.
 - Cross OS language (Windows, Linux, Unix, and Mac)
@@ -79,16 +79,16 @@
 - variables are always assigned with the variable name on the left and then the value on the right of equals sign.
 - variables must be assigned before they are used
 - Naming Restriction:
-    - variables must start with a letter or underscore
-    - rest of the variable name must consist of letters, numbers or underscores
-    - variable names are case-sensitive
+  - variables must start with a letter or underscore
+  - rest of the variable name must consist of letters, numbers or underscores
+  - variable names are case-sensitive
 - Naming Conventions/Style/Guide-lines:
-    - variable should be lower_snake_case (betweeen words underscore)
-    - variable should be lower cases
-    - constants should be CAPITAL_SNAKE_CASE
-    - Class name should be UpperCamelCase
-    - variable that starts and ends with two underscores (called dunder for double underscore) are supposed to be
-      private or should left alone ex-
+  - variable should be lower_snake_case (betweeen words underscore)
+  - variable should be lower cases
+  - constants should be CAPITAL_SNAKE_CASE
+  - Class name should be UpperCamelCase
+  - variable that starts and ends with two underscores (called dunder for double underscore) are supposed to be
+  private or should left alone ex-
   <!-- __no_touch__ -->
 
 ---
@@ -96,14 +96,14 @@
 # Data Types
 
 - Primitive Data type:
-    - Boolean Type: bool
-    - Numeric Types: int, float, complex
-    - Text Type: str
+  - Boolean Type: bool
+  - Numeric Types: int, float, complex
+  - Text Type: str
 - Secondary Data Type: (Data-Structures)
-    - Sequence Types: list, tuple, range (Ordered sequence of values like array)
-    - Mapping Type: dict (Collection of key/value pairs)
-    - Set Type: set, frozenset
-    - Binary Type: bytes, bytearray, memoryview
+  - Sequence Types: list, tuple, range (Ordered sequence of values like array)
+  - Mapping Type: dict (Collection of key/value pairs)
+  - Set Type: set, frozenset
+  - Binary Type: bytes, bytearray, memoryview
 - Special Value: None (Similar to null in other languages)
 
 ---
@@ -112,7 +112,7 @@
 
 - String literals in python can be declared with either Single quotes or double quotes. (Just like JS)
 - Escape Character/Sequence: this are meta-characters which get interpreted by python to do somthing special:
-    - https://docs.python.org/3/reference/lexical_analysis.html#literals
+  - https://docs.python.org/3/reference/lexical_analysis.html#literals
 - Formatting String: There are several ways to format a string in python to interpolate a variable. New way in Python3
   is F-String
 - String is indexed (ie- each character has indicies)
@@ -152,9 +152,9 @@ else:
 - Beside false condition checks, other things that are naturally falsy include: empty objects, empty String, None and
   Zero
 - Difference between "==" v/s is: (Both are used to check condition oeprator) ==> Comparsion Operator
-    - == only check for values are same?
-    - is: check for values and stores in the same memory ('is' operator is only truthy if the vairables reference the
-      same item in the memory)
+  - == only check for values are same?
+  - is: check for values and stores in the same memory ('is' operator is only truthy if the vairables reference the
+    same item in the memory)
 
 ---
 
@@ -174,12 +174,12 @@ for item in iterable_object:
   iterate over every item of the collection and then go away when it has visited all the items in the collection
 - range(1,8) ==> Generates numbers from 1 to 7
 - range() - think ranges as just a slice of number line.
-    - If we want to print numbers we can simply iterate over range()
-    - range(7) will give you integers from 0 to 6
-    - range(1, 8) will give you integers from 1 to 7
-    - range(1, 10, 2) will give you odds from 1 to 10
-    - range(7, 0, -1) will give you integers from 7 to 1 (Third param is step ==> How many to skip, also +ve -> count up
-      or -ve -> count down)
+  - If we want to print numbers we can simply iterate over range()
+  - range(7) will give you integers from 0 to 6
+  - range(1, 8) will give you integers from 1 to 7
+  - range(1, 10, 2) will give you odds from 1 to 10
+  - range(7, 0, -1) will give you integers from 7 to 1 (Third param is step ==> How many to skip, also +ve -> count up
+    or -ve -> count down)
 
 ---
 
@@ -252,10 +252,10 @@ while boolean_expression:
 - syntax: uses () rather than [] <- used in list/array
 - It is immutable (i.e- src Cannot be modify/changed)
 - What makes Tuples a good DS
-    - Tuples are faster than list/array
-    - It makes your code safer from bugs (statically typed)
-    - can be used as valid keys in the dictionary
-    - some methods return them to you- like .items() when working with dictionaries!
+  - Tuples are faster than list/array
+  - It makes your code safer from bugs (statically typed)
+  - can be used as valid keys in the dictionary
+  - some methods return them to you- like .items() when working with dictionaries!
 - Tuples can be used as keys in the dictionary but list cannot be the key of dictionary
 - Tuples are faster than list and useful for protecting data
 - tuples are immutable
@@ -282,21 +282,21 @@ while boolean_expression:
 - Useful for executing similar procedure over and over again
 - built-in functions: print(), list.append(), etc.
 - Why use Functions?
-    - Using functions stay DRY : Don't Repeat Yourself!, don't be WET (Write Everything Twice)
-    - Clean up our code and prevent duplications
-    - "Abstract away" code for other users  (Imagine you need to re-write the logic everytime you call that function)
+  - Using functions stay DRY : Don't Repeat Yourself!, don't be WET (Write Everything Twice)
+  - Clean up our code and prevent duplications
+  - "Abstract away" code for other users (Imagine you need to re-write the logic everytime you call that function)
 - return
-    - exist the function
-    - we can return single or multiple values (using tuples)
-    - pops the function off of the call stack
+  - exist the function
+  - we can return single or multiple values (using tuples)
+  - pops the function off of the call stack
 - arguments vs parameters
-    - parameters is a variable in method definition
-    - when a method is called, the arguments are the data you pass into method's parameters
-    - Parameters is a variable in the declaration of function
-    - Arguments is the actual value of this variable that gets passed to function
+  - parameters is a variable in method definition
+  - when a method is called, the arguments are the data you pass into method's parameters
+  - Parameters is a variable in the declaration of function
+  - Arguments is the actual value of this variable that gets passed to function
 - Difference between default params and keyword arguments
-    - default parameters: when you define a function and use a -> = operator, you are setting a default parameter.
-    - keyword arguments: when you invoke a function and use a -> = operator, you are making a keyword arguments.
+  - default parameters: when you define a function and use a -> = operator, you are setting a default parameter.
+  - keyword arguments: when you invoke a function and use a -> = operator, you are making a keyword arguments.
 - Functions are procedure for executing code. They accept input and return outputs when the return keyword is used.
 - To create inputs, we make parameters which can have default values, we call those default values parameters
 - variables defined inside of function are scoped to that function
@@ -317,7 +317,7 @@ while boolean_expression:
 
 # More About functions
 
-## *args
+## \*args
 
 - A special operator we can pass to a function
 - Gather reaming arguments as a tuple
@@ -325,7 +325,7 @@ while boolean_expression:
 
 ---
 
-## **kwargs
+## \*\*kwargs
 
 - kwargs -> key-word arguments (full-form)
 - A special operator we can pass to a function
@@ -337,11 +337,11 @@ while boolean_expression:
 ## Parameters Ordering
 
 - function parameters should follow below order
-    1. parameters
-    2. *args
-    3. default parameter
-    4. **kwargs
-- Note: very specific arguments should be at the starting and more generic arguments like *args, default parameter
+  1. parameters
+  2. \*args
+  3. default parameter
+  4. \*\*kwargs
+- Note: very specific arguments should be at the starting and more generic arguments like \*args, default parameter
   should be at the last
 
 ---
@@ -362,3 +362,11 @@ while boolean_expression:
   data-structure
 
 ---
+
+# Installing python using docker
+
+- \$ docker pull python:3.10-alpine
+- To run a python script using docker image
+  - docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp python:3.7-alpine python script_to_run.py
+  - \$ cd docker-py
+  - \$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp python:3.10-alpine python hello-world.py
